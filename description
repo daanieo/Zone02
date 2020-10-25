@@ -14,7 +14,7 @@ Via an anxiety scale:
 
 So Hungry? is checked via: food <= food_consumption*nb_members*anxiety_scale
 
-
+s
 Create facility random at some point in the shape 
 
 
