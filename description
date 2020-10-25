@@ -1,0 +1,30 @@
+* System populated with households; 
+
+- int nb_members [-] // number of members a household has, statistically matching population data 
+- float food_in_store [kg] // amount of food a household has in its posession 
+- float food_consumption [kg/day] // the amount one person consumes per day
+
+
+Consume food process: 
+
+
+Via an anxiety scale:
+
+1 - 5 days worth of food. 
+
+So Hungry? is checked via: food <= food_consumption*nb_members*anxiety_scale
+
+
+Create facility random at some point in the shape 
+
+
+
+
+
+-> Uitbreiden van gedrag bij twee functies hoofdzakelijk: 
+
+Wanneer een beneficiary agent wordt gecreeerd
+
+Hoe de beneficiary agent zich gedraagt;
+    fysiek
+    de vraag naar voedsel 
