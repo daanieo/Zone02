@@ -18,9 +18,6 @@ species facilities{
 	
 //	Constants
 	float facility_food_storage_size;
-	int avg_nb_building;
-
-	int capacity_per_cycle;
 	int nb_beneficiaries;
 	
 //	States
@@ -105,7 +102,7 @@ species facilities{
 			queue_open <- false;				// close the queue
 		}else if length(queue)>0 {
 			
-			loop times: capacity_per_cycle { 	// serves capacity_per_cycle people per cycle
+			loop times: served_parallel { 	// serves capacity_per_cycle people per cycle
 				
 				if length(queue)=0{ 			// stops if the queue is empty
 					break;
