@@ -5,8 +5,8 @@
 * Tags: 
 */
 
-
 model facilitiesmodel
+// Test comment
 
 import "households_model.gaml"
 import "Zone02_simulation.gaml"
